@@ -5,7 +5,7 @@ class Anagram
     @word = word
   end
 
-  def match()
+  def match(word)
     ana = word.split (" ")
   end
 end
