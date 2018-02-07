@@ -6,6 +6,7 @@ class Anagram
   end
 
   def match(word)
-    ana = word.split (" ")
+    word.select do |letter|
+      (@word.split("").sort) == (element.split("").sort)
   end
 end
